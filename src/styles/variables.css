@@ -1,0 +1,28 @@
+:root {
+  /* Primary gradient colors - matching your logo */
+  --primary-blue: #00B4FF;      /* Bright sky blue */
+  --primary-cyan: #00E5FF;      /* Cool aqua cyan */
+  --primary-gradient: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-cyan) 100%);
+  --primary-gradient-horizontal: linear-gradient(90deg, var(--primary-blue) 0%, var(--primary-cyan) 100%);
+  
+  /* Extended color palette */
+  --primary-light: #4DF2FF;
+  --primary-dark: #0099CC;
+  --secondary-color: #00CCFF;
+  --accent-color: #00D4FF;
+  
+  /* Neutral colors */
+  --text-dark: #2D3748;
+  --text-light: #718096;
+  --text-lighter: #A0AEC0;
+  --background-white: #FFFFFF;
+  --background-light: #F7FAFC;
+  --background-grey: #EDF2F7;
+  --border-light: #E2E8F0;
+  
+  /* Effects */
+  --shadow: 0 4px 12px rgba(0, 180, 255, 0.15);
+  --shadow-hover: 0 8px 24px rgba(0, 180, 255, 0.25);
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
