@@ -66,7 +66,7 @@
 }
 
 .logo-image {
-    transform: scale(1.7);
+    transform: scale(1.9);
   height: 42px;
   width: auto;
   transition: var(--transition);

@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <div className="contact-info">
-              <p>📧 contact@techdevpro.com</p>
+              <p>📧 service.partion@gmail.com</p>
               <p>📱 +1 (555) 123-4567</p>
               <p>💬 WhatsApp Available</p>
             </div>
