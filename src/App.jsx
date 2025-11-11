@@ -15,11 +15,21 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Hero />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="services">
+          <Services />
+        </section>
+        <section id="portfolio">
+          <Portfolio />
+        </section>
+        <section id="testimonials">
+          <Testimonials />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
       

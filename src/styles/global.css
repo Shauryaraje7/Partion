@@ -90,6 +90,7 @@ body {
 }
 
 .btn-secondary {
+  border-radius: 180px;
   background: transparent;
   border: 2px solid;
   border-image: var(--primary-gradient);

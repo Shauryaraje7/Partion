@@ -1,18 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
-import logo from '../../assets/blacklogo.png'
-
+import logo from '../../assets/blacklogo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('home');
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   // Close menu when clicking on a link
-  const handleLinkClick = () => {
+  const handleLinkClick = (section) => {
+    setActiveSection(section);
     setIsMenuOpen(false);
+    
+    // Scroll to section
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   // Close menu when pressing escape key
@@ -40,6 +47,30 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
+  // Update active section on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['home', 'services', 'portfolio', 'testimonials', 'contact'];
+      const scrollPosition = window.scrollY + 100;
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const offsetTop = element.offsetTop;
+          const offsetHeight = element.offsetHeight;
+
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(section);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <header className="header">
       <div className="header-circuit"></div>
@@ -52,14 +83,50 @@ const Header = () => {
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <div className="nav-links">
-              <a href="/" className="nav-link" onClick={handleLinkClick}>Home</a>
-              <a href="/services" className="nav-link" onClick={handleLinkClick}>Services</a>
-              <a href="/portfolio" className="nav-link" onClick={handleLinkClick}>Portfolio</a>
-              <a href="/about" className="nav-link" onClick={handleLinkClick}>About</a>
-              <a href="/contact" className="nav-link" onClick={handleLinkClick}>Contact</a>
+              <a 
+                href="#home" 
+                className={`nav-link ${activeSection === 'home' ? 'active' : ''}`}
+                onClick={() => handleLinkClick('home')}
+              >
+                Home
+              </a>
+              <a 
+                href="#services" 
+                className={`nav-link ${activeSection === 'services' ? 'active' : ''}`}
+                onClick={() => handleLinkClick('services')}
+              >
+                Services
+              </a>
+              <a 
+                href="#portfolio" 
+                className={`nav-link ${activeSection === 'portfolio' ? 'active' : ''}`}
+                onClick={() => handleLinkClick('portfolio')}
+              >
+                Portfolio
+              </a>
+              <a 
+                href="#testimonials" 
+                className={`nav-link ${activeSection === 'testimonials' ? 'active' : ''}`}
+                onClick={() => handleLinkClick('testimonials')}
+              >
+                Testimonials
+              </a>
+              <a 
+                href="#contact" 
+                className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`}
+                onClick={() => handleLinkClick('contact')}
+              >
+                Contact
+              </a>
             </div>
             <div className="nav-actions">
-              <a href="/hire-us" className="nav-cta" onClick={handleLinkClick}>Hire Us</a>
+              <a 
+                href="#contact" 
+                className="nav-cta"
+                onClick={() => handleLinkClick('contact')}
+              >
+                Hire Us
+              </a>
             </div>
           </nav>
 
