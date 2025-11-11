@@ -76,7 +76,7 @@ const Services = () => {
                   <div className="service-icon">
                     {service.icon}
                   </div>
-                  <div className="service-glow"></div>
+                  {/* <div className="service-glow"></div> */}
                 </div>
                 
                 <h3 className="service-title">{service.title}</h3>
