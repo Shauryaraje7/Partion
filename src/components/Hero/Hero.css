@@ -77,7 +77,7 @@
 .hero-buttons {
   display: flex;
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   flex-wrap: wrap;
 }
 
@@ -154,7 +154,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.5rem;
+
 }
 
 .stat-label {
@@ -210,7 +210,7 @@
 
 @media (max-width: 768px) {
 .hero-right{
-  display: none;
+justify-content: center;
 }
 
   .hero-grid {

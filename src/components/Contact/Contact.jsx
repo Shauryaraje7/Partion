@@ -48,7 +48,8 @@ const Contact = () => {
                 <div className="contact-icon">📱</div>
                 <div>
                   <h4>WhatsApp</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <p>+91 9822474542</p>
+                  <p>+91 8237536226</p>
                 </div>
               </div>
               
