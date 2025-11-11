@@ -1,6 +1,6 @@
 :root {
   /* Primary gradient colors - matching your logo */
-  --primary-blue: #00E5FF;      /* Bright sky blue */
+  --primary-blue: #2563eb;      /* Bright sky blue */
   --primary-cyan: #2563eb;      /* Cool aqua cyan */
   --primary-gradient: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-cyan) 100%);
   --primary-gradient-horizontal: linear-gradient(90deg, var(--primary-blue) 0%, var(--primary-cyan) 100%);
