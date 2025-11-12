@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Portfolio.css';
+import Smartflows from '../../assets/Smartflows.png';
 
 const Portfolio = () => {
   const [visibleCount, setVisibleCount] = useState(3);
@@ -26,11 +27,11 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Smart Home IoT System',
-      description: 'Complete home automation with sensor networks and intelligent energy management.',
-      image: '/api/placeholder/400/300',
-      technologies: ['IoT', 'React', 'Node.js', 'WebSockets'],
-      demoLink: '#'
+      title: 'SmartFlows Automation Platform',
+      description: 'A corporate website for an automation consultancy showcasing their RPA services and client portfolio.',
+      image: Smartflows,
+      technologies: [ 'React', 'Node.js', 'Express.js','MongoDB'],
+      demoLink: 'https://www.smartflows.in/'
     },
     {
       id: 4,
