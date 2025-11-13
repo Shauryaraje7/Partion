@@ -203,7 +203,6 @@
   font-size: 1rem;
   color: var(--text-light);
   line-height: 1.6;
-  margin-bottom: 1.5rem;
   flex-grow: 1;
 }
 
@@ -211,7 +210,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 2rem;
 }
 
 .tech-tag {

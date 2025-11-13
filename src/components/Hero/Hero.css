@@ -210,6 +210,15 @@
 }
 
 @media (max-width: 768px) {
+.hero-image {
+  filter:none
+}
+.hero-image:hover {
+  filter: none;
+}
+
+
+
 .hero-right{
 justify-content: center;
 }
