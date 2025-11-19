@@ -42,7 +42,7 @@ function App() {
         aria-label="Contact us on WhatsApp"
       >
         💬
-      </a>
+      </a>  
     </div>
   );
 }

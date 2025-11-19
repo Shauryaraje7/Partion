@@ -16,7 +16,7 @@ const Portfolio = () => {
       demoLink: '#',
       featured: true
     },
-    {
+    { 
       id: 2,
       title: 'Healthcare Mobile App',
       description: 'Patient management and telemedicine application with secure video consultations.',
