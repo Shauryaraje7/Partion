@@ -296,7 +296,7 @@
   }
 
   .nav-open {
-    height: 60vh;
+    height: 70vh;
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
