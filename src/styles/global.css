@@ -93,7 +93,7 @@ body {
   border-radius: 180px;
   background: transparent;
   border: 2px solid;
-  border-image: var(--primary-gradient);
+
   border-image-slice: 1;
   color: var(--primary-color);
 }

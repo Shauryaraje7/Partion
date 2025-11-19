@@ -112,7 +112,7 @@
   background: transparent;
   border: 2px solid;
   border-radius: 10%;
-  border-image: var(--primary-gradient);
+
   border-image-slice: 1;
   color: var(--primary-color);
 }
