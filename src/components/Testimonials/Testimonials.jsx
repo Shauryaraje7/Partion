@@ -7,7 +7,7 @@ const Testimonials = () => {
       id: 1,
       name: 'Sarah Johnson',
       company: 'TechStart Inc.',
-      role: 'CEO',
+      role: '',
       content: 'They built our startup platform from idea to launch — highly recommend. The team delivered beyond our expectations with their technical expertise.',
       rating: 5
     },
@@ -15,7 +15,7 @@ const Testimonials = () => {
       id: 2,
       name: 'Michael Chen',
       company: 'HealthCare Plus',
-      role: 'CTO',
+      role: '',
       content: 'Delivered a full web app and AI chatbot faster than any other team! Their attention to detail and project management was impressive.',
       rating: 5
     },
