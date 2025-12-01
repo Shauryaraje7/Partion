@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
-import logo from '../../assets/blacklogo.png';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -76,10 +76,12 @@ const Header = () => {
       <div className="header-circuit"></div>
       <div className="container">
         <div className="header-content">
+          <a href="#home">
           <div className="logo">
-            <img src={logo} alt="Partion" className="logo-image" />
+            <img src={logo} alt="LioMonk" className="logo-image" />
             <span className="logo-text"></span>
           </div>
+          </a>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <div className="nav-links">

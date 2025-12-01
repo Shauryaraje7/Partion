@@ -55,12 +55,12 @@ const Contact = () => {
                   <h4 className="contact__item-title">Email Us</h4>
                   <p className="contact__item-desc">
                     <a 
-                      href={`mailto:service.partion@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=${messageTemplate}`} 
+                      href={`mailto:service.LioMonk@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=${messageTemplate}`} 
                       className="contact__link"
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                      service.partion@gmail.com
+                      service.LioMonk@gmail.com
                     </a>
                   </p>
                 </div>
