@@ -21,7 +21,7 @@ const Footer = () => {
                   <path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"></path>
                 </svg>
               </a>
-              <a href="mailto:service.LioMonk@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=Hello%20TechDev%20Pro%20Team%2C%0A%0AI%27m%20reaching%20out%20via%20your%20website.%20I%27m%20interested%20in%20learning%20more%20about%20your%20services%20in%20web%2C%20app%2C%20AI%2C%20or%20IoT%20development.%20Could%20you%20please%20share%20details%20on%20how%20we%20can%20get%20started%3F%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D" aria-label="Email" className="footer-social-link" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:liomonk247@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=Hello%20TechDev%20Pro%20Team%2C%0A%0AI%27m%20reaching%20out%20via%20your%20website.%20I%27m%20interested%20in%20learning%20more%20about%20your%20services%20in%20web%2C%20app%2C%20AI%2C%20or%20IoT%20development.%20Could%20you%20please%20share%20details%20on%20how%20we%20can%20get%20started%3F%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D" aria-label="Email" className="footer-social-link" target="_blank" rel="noopener noreferrer">
                 <svg className="footer-social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                   <rect width="512" height="512" rx="15%" fill="#ffffff"></rect>
                   <path d="M158 391v-142l-82-63V361q0 30 30 30" fill="#4285f4"></path>
@@ -84,7 +84,7 @@ const Footer = () => {
                     <path d="M436 188l-82 63v-98l30-23c27-21 52 0 52 26" fill="#fbbc04"></path>
                   </svg>
                 </span>
-                <a href="mailto:service.LioMonk@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=Hello%20TechDev%20Pro%20Team%2C%0A%0AI%27m%20reaching%20out%20via%20your%20website.%20I%27m%20interested%20in%20learning%20more%20about%20your%20services%20in%20web%2C%20app%2C%20AI%2C%20or%20IoT%20development.%20Could%20you%20please%20share%20details%20on%20how%20we%20can%20get%20started%3F%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D" className="footer-contact-link">service.LioMonk@gmail.com</a>
+                <a href="mailto:liomonk247@gmail.com?subject=Inquiry%20from%20TechDev%20Pro%20Website&body=Hello%20TechDev%20Pro%20Team%2C%0A%0AI%27m%20reaching%20out%20via%20your%20website.%20I%27m%20interested%20in%20learning%20more%20about%20your%20services%20in%20web%2C%20app%2C%20AI%2C%20or%20IoT%20development.%20Could%20you%20please%20share%20details%20on%20how%20we%20can%20get%20started%3F%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D" className="footer-contact-link">liomonk247@gmail.com</a>
               </p>
               <p className="footer-contact-item">
                 <span className="footer-contact-icon">
