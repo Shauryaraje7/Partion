@@ -99,13 +99,13 @@ const Header = () => {
               >
                 Services
               </a>
-              <a 
+              {/* <a 
                 href="#portfolio" 
                 className={`nav-link ${activeSection === 'portfolio' ? 'active' : ''}`}
                 onClick={() => handleLinkClick('portfolio')}
               >
                 Portfolio
-              </a>
+              </a> */}
               <a 
                 href="#testimonials" 
                 className={`nav-link ${activeSection === 'testimonials' ? 'active' : ''}`}
